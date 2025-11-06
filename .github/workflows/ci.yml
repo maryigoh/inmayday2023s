@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "1 2 * * *"  # 每天22:11检查
+    - cron: "1 2 * * *"  # 每天 UTC 02:01（北京时间 10:01）
 
 jobs:
   autogreen:
